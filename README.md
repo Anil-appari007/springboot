@@ -9,7 +9,7 @@ Requirements to build:
 
 build command is 
 $ mvn package
-will generate a war file target/demo-0.0.1-SNAPSHOT.jar
+will generate a jar file target/demo-0.0.1-SNAPSHOT.jar
 
 To run this, 
 $ java -jar target/demo-0.0.1-SNAPSHOT.jar
