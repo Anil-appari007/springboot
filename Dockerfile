@@ -10,7 +10,7 @@
 # ENTRYPOINT ["java","-jar","app.jar"]
 
 
-FROM amazoncorretto:8u312-alpine3.14-jre
+FROM amazoncorretto:11.0.13-alpine3.14
 COPY target/demo-0.0.1-SNAPSHOT.jar app.jar
 EXPOSE 8080
 ENTRYPOINT ["java","-jar","app.jar"]
